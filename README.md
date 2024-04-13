@@ -9,8 +9,8 @@ A keyboard testing application which test all the keys on your keyboard, can be 
 ![Screenshot](screenshots/Capture3.PNG)
 
 <div style="display:flex;">
-    <img src="screenshots/Capture2.PNG" alt="Screenshot 2" width="200"">
-    <img src="screenshots/Capture3.PNG" alt="Screenshot 2" width="300"">
+    <img src="screenshots/Capture2.PNG" alt="Screenshot 2" width="300"">
+    <img src="screenshots/Capture3.PNG" alt="Screenshot 2" width="200"">
 
 </div>
 
