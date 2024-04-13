@@ -2,9 +2,12 @@
 
 A keyboard testing application which test all the keys on your keyboard, can be used in desktop tablet and mobile view.
 
-![Screenshot](screenshots/Capture1.PNG)
-![Screenshot](screenshots/Capture2.PNG)
-![Screenshot](screenshots/Capture3.PNG)
+
+<div style="display:flex;">
+    <img src="screenshots/Capture1.PNG" alt="Screenshot 1" width="500">
+    <img src="screenshots/Capture2.PNG" alt="Screenshot 2" width="300">
+    <img src="screenshots/Capture3.PNG" alt="Screenshot 3" width="200">
+</div>
 
 ## Objectives
 
