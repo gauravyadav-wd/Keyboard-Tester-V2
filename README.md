@@ -4,7 +4,7 @@ A keyboard testing application which test all the keys on your keyboard, can be 
 <!-- -->
 <!-- -->
 <div style="display:flex;">
-    <img src="screenshots/Capture1.PNG" alt="Screenshot 2" width="500"">
+    <img src="screenshots/Capture1.PNG" alt="Screenshot 2" width="800"">
     <img src="screenshots/Capture2.PNG" alt="Screenshot 2" width="300"">
     <img src="screenshots/Capture3.PNG" alt="Screenshot 2" width="200"">
 </div>
