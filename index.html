@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <div class="views">
+      <h2>View</h2>
+      <div class="desktop-btn-con">
+        <label for="desktop-btn">Desktop</label>
+        <input type="radio" name="view" id="desktop-btn" checked />
+      </div>
+      <div class="tablet-btn-con">
+        <label for="tablet-btn">Tablet</label>
+        <input type="radio" name="view" id="tablet-btn" />
+      </div>
+      <div class="mobile-btn-con">
+        <label for="mobile-btn">Mobile</label>
+        <input type="radio" name="view" id="mobile-btn" />
+      </div>
+      <div class="reset-con">
+        <button class="reset-view">Reset</button>
+        <p>or esc</p>
+      </div>
+    </div>
+
+    <div class="container desktop">
+      <div class="text-container">
+        <div class="ui">
+          <h3>Keyboard Tester</h3>
+          <p class="para">Test your keyboard easy and fast in any device. 😎</p>
+        </div>
+        <div class="text"></div>
+      </div>
+      <div class="keyboard">
+        <div class="upper-section">
+          <div class="col-1">
+            <div class="Escape k-btn">esc</div>
+            <div class="F1 k-btn">F1</div>
+            <div class="F2 k-btn">F2</div>
+            <div class="F3 k-btn">F3</div>
+            <div class="F4 k-btn">F4</div>
+            <div class="F5 k-btn">F5</div>
+            <div class="F6 k-btn">F6</div>
+            <div class="F7 k-btn">F7</div>
+            <div class="F8 k-btn">F8</div>
+            <div class="F9 k-btn">F9</div>
+            <div class="F10 k-btn">F10</div>
+            <div class="F11 k-btn">F11</div>
+            <div class="F12 k-btn">F12</div>
+          </div>
+        </div>
+        <div class="lower-section">
+          <div class="line-1">
+            <div class="Backquote k-btn">
+              <p>~</p>
+              <p>`</p>
+            </div>
+            <div class="Digit1 k-btn">
+              <p>!</p>
+              <p>1</p>
+            </div>
+            <div class="Digit2 k-btn">
+              <p>@</p>
+              <p>2</p>
+            </div>
+            <div class="Digit3 k-btn">
+              <p>#</p>
+              <p>3</p>
+            </div>
+            <div class="Digit4 k-btn">
+              <p>$</p>
+              <p>4</p>
+            </div>
+            <div class="Digit5 k-btn">
+              <p>%</p>
+              <p>5</p>
+            </div>
+            <div class="Digit6 k-btn">
+              <p>^</p>
+              <p>6</p>
+            </div>
+            <div class="Digit7 k-btn">
+              <p>&</p>
+              <p>7</p>
+            </div>
+            <div class="Digit8 k-btn">
+              <p>*</p>
+              <p>8</p>
+            </div>
+            <div class="Digit9 k-btn">
+              <p>(</p>
+              <p>9</p>
+            </div>
+            <div class="Digit0 k-btn">
+              <p>)</p>
+              <p>0</p>
+            </div>
+            <div class="Minus k-btn">
+              <p>_</p>
+              <p>-</p>
+            </div>
+            <div class="Equal k-btn">
+              <p>+</p>
+              <p>=</p>
+            </div>
+            <div class="Backspace k-btn-special">
+              back <br />
+              space
+            </div>
+          </div>
+          <div class="line-2">
+            <div class="Tab k-btn-special">tab</div>
+            <div class="q k-btn">Q</div>
+            <div class="w k-btn">W</div>
+            <div class="e k-btn">E</div>
+            <div class="r k-btn">R</div>
+            <div class="t k-btn">T</div>
+            <div class="y k-btn">Y</div>
+            <div class="u k-btn">U</div>
+            <div class="i k-btn">I</div>
+            <div class="o k-btn">O</div>
+            <div class="p k-btn">P</div>
+            <div class="BracketLeft k-btn">
+              <p>{</p>
+              <p>[</p>
+            </div>
+            <div class="BracketRight k-btn">
+              <p>}</p>
+              <p>[</p>
+            </div>
+            <div class="Enter k-btn-special">enter</div>
+          </div>
+          <div class="line-3">
+            <div class="CapsLock k-btn-special">capslock</div>
+            <div class="a k-btn">A</div>
+            <div class="s k-btn">S</div>
+            <div class="d k-btn">D</div>
+            <div class="f k-btn">F</div>
+            <div class="g k-btn">G</div>
+            <div class="h k-btn">H</div>
+            <div class="j k-btn">J</div>
+            <div class="k k-btn">K</div>
+            <div class="l k-btn">L</div>
+            <div class="Semicolon k-btn">
+              <p>:</p>
+              <p>;</p>
+            </div>
+            <div class="Quote k-btn">
+              <p>"</p>
+              <p>'</p>
+            </div>
+            <div class="Backslash k-btn">
+              <p>|</p>
+              <p>\</p>
+            </div>
+          </div>
+          <div class="line-4">
+            <div class="ShiftLeft k-btn-special">shift</div>
+            <div class="z k-btn">Z</div>
+            <div class="x k-btn">X</div>
+            <div class="c k-btn">C</div>
+            <div class="v k-btn">V</div>
+            <div class="b k-btn">B</div>
+            <div class="n k-btn">N</div>
+            <div class="m k-btn">M</div>
+            <div class="Comma k-btn">
+              <p><</p>
+              <p>,</p>
+            </div>
+            <div class="Period k-btn">
+              <p>></p>
+              <p>.</p>
+            </div>
+            <div class="Slash k-btn">
+              <p>?</p>
+              <p>/</p>
+            </div>
+            <div class="ShiftRight k-btn-special">shift</div>
+          </div>
+          <div class="line-5">
+            <div class="ControlLeft k-btn-special">ctrl</div>
+            <div class="MetaLeft k-btn">
+              <img src="./img/win.png" width="25" alt="win" />
+            </div>
+            <div class="AltLeft k-btn-special">alt</div>
+            <div class="numMob k-btn">123</div>
+            <div class="Space"></div>
+            <div class="returnMob k-btn">
+              <span class="material-symbols-outlined"> keyboard_return </span>
+            </div>
+            <div class="AltRight k-btn-special">alt</div>
+            <div class="MetaLeft k-btn">
+              <img src="./img/win.png" width="25" alt="win" />
+            </div>
+            <div class="ControlRight k-btn-special">ctrl</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tablet hidden">
+      <img src="./img/tablet.png" style="z-index: 99" width="480" alt="" />
+      <div class="tablet-box">
+        <h3>Keyboard Tester</h3>
+        <p class="para">Test your keyboard easy and fast in any device. 😎</p>
+        <div class="tablet-text-container"></div>
+        <div class="keyboard">
+          <div class="lower-section">
+            <div class="line-1">
+              <div class="Digit1 k-btn">
+                <p>1</p>
+              </div>
+              <div class="Digit2 k-btn">
+                <p>2</p>
+              </div>
+              <div class="Digit3 k-btn">
+                <p>3</p>
+              </div>
+              <div class="Digit4 k-btn">
+                <p>4</p>
+              </div>
+              <div class="Digit5 k-btn">
+                <p>5</p>
+              </div>
+              <div class="Digit6 k-btn">
+                <p>6</p>
+              </div>
+              <div class="Digit7 k-btn">
+                <p>7</p>
+              </div>
+              <div class="Digit8 k-btn">
+                <p>8</p>
+              </div>
+              <div class="Digit9 k-btn">
+                <p>9</p>
+              </div>
+              <div class="Digit0 k-btn">
+                <p>0</p>
+              </div>
+            </div>
+            <div class="line-2">
+              <div class="q k-btn">Q</div>
+              <div class="w k-btn">W</div>
+              <div class="e k-btn">E</div>
+              <div class="r k-btn">R</div>
+              <div class="t k-btn">T</div>
+              <div class="y k-btn">Y</div>
+              <div class="u k-btn">U</div>
+              <div class="i k-btn">I</div>
+              <div class="o k-btn">O</div>
+              <div class="p k-btn">P</div>
+              <div class="BracketLeft k-btn">
+                <p>[</p>
+              </div>
+              <div class="BracketRight k-btn">
+                <p>[</p>
+              </div>
+            </div>
+            <div class="line-3">
+              <div class="a k-btn">A</div>
+              <div class="s k-btn">S</div>
+              <div class="d k-btn">D</div>
+              <div class="f k-btn">F</div>
+              <div class="g k-btn">G</div>
+              <div class="h k-btn">H</div>
+              <div class="j k-btn">J</div>
+              <div class="k k-btn">K</div>
+              <div class="l k-btn">L</div>
+              <div class="Semicolon k-btn">
+                <p>;</p>
+              </div>
+              <div class="Quote k-btn">
+                <p>'</p>
+              </div>
+              <div class="Backslash k-btn">
+                <p>\</p>
+              </div>
+            </div>
+            <div class="line-4">
+              <div class="z k-btn">Z</div>
+              <div class="x k-btn">X</div>
+              <div class="c k-btn">C</div>
+              <div class="v k-btn">V</div>
+              <div class="b k-btn">B</div>
+              <div class="n k-btn">N</div>
+              <div class="m k-btn">M</div>
+              <div class="Comma k-btn">
+                <p>,</p>
+              </div>
+              <div class="Period k-btn">
+                <p>.</p>
+              </div>
+              <div class="cross Backspace k-btn">
+                <span class="material-symbols-outlined"> close </span>
+              </div>
+            </div>
+            <div class="line-5">
+              <div class="numMob k-btn">123</div>
+              <div class="Space"></div>
+              <div class="returnMob Enter k-btn">
+                <span class="material-symbols-outlined"> keyboard_return </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mobile hidden">
+      <img src="./img/mobile.png" style="z-index: 99" width="400" alt="" />
+      <div class="mobile-box">
+        <h3>Keyboard Tester</h3>
+        <p class="para">Test your keyboard easy and fast in any device. 😎</p>
+        <div class="mobile-text-container"></div>
+        <div class="keyboard">
+          <div class="lower-section">
+            <div class="line-1">
+              <div class="Digit1 k-btn">
+                <p>1</p>
+              </div>
+              <div class="Digit2 k-btn">
+                <p>2</p>
+              </div>
+              <div class="Digit3 k-btn">
+                <p>3</p>
+              </div>
+              <div class="Digit4 k-btn">
+                <p>4</p>
+              </div>
+              <div class="Digit5 k-btn">
+                <p>5</p>
+              </div>
+              <div class="Digit6 k-btn">
+                <p>6</p>
+              </div>
+              <div class="Digit7 k-btn">
+                <p>7</p>
+              </div>
+              <div class="Digit8 k-btn">
+                <p>8</p>
+              </div>
+              <div class="Digit9 k-btn">
+                <p>9</p>
+              </div>
+              <div class="Digit0 k-btn">
+                <p>0</p>
+              </div>
+            </div>
+            <div class="line-2">
+              <div class="q k-btn">Q</div>
+              <div class="w k-btn">W</div>
+              <div class="e k-btn">E</div>
+              <div class="r k-btn">R</div>
+              <div class="t k-btn">T</div>
+              <div class="y k-btn">Y</div>
+              <div class="u k-btn">U</div>
+              <div class="i k-btn">I</div>
+              <div class="o k-btn">O</div>
+              <div class="p k-btn">P</div>
+            </div>
+            <div class="line-3">
+              <div class="a k-btn">A</div>
+              <div class="s k-btn">S</div>
+              <div class="d k-btn">D</div>
+              <div class="f k-btn">F</div>
+              <div class="g k-btn">G</div>
+              <div class="h k-btn">H</div>
+              <div class="j k-btn">J</div>
+              <div class="k k-btn">K</div>
+              <div class="l k-btn">L</div>
+            </div>
+            <div class="line-4">
+              <div class="uppercase CapsLock k-btn">
+                <span class="material-symbols-outlined"> arrow_upward </span>
+              </div>
+              <div class="z k-btn">Z</div>
+              <div class="x k-btn">X</div>
+              <div class="c k-btn">C</div>
+              <div class="v k-btn">V</div>
+              <div class="b k-btn">B</div>
+              <div class="n k-btn">N</div>
+              <div class="m k-btn">M</div>
+              <div class="cross Backspace k-btn">
+                <span class="material-symbols-outlined"> close </span>
+              </div>
+            </div>
+            <div class="line-5">
+              <div class="num k-btn">123</div>
+              <div class="Space"></div>
+              <div class="return Enter k-btn">
+                <span class="material-symbols-outlined"> keyboard_return </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
