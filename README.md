@@ -1,7 +1,7 @@
 # Keyboard Tester
 
 A keyboard testing application which test all the keys on your keyboard, can be used in desktop tablet and mobile view.
-<br>
+<br/>
 ![Screenshot](screenshots/Capture1.PNG)
 <br>
 ![Screenshot](screenshots/Capture2.PNG)
